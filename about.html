@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Promotional PSHS Website">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Group 10">
+    <meta name="viewport" content="">
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Rubik Mono One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
+</head>
+
+<header>
+    <nav>
+        <ul>
+            <li><a id="acads" href="acads.html">ACADEMICS</a></li>
+            <li><a id="admis" href="admission.html">ADMISSION</a></li>
+            <li><a id="conta" href="contacts.html">CONTACTS</a></li>
+            <li><a id="ab" href="about.html">ABOUT</a></li>
+            <li><a id="yes" href="index.html">HOME</a></li>
+        </ul>
+
+
+        <img src="pisaylogof.png" alt="" class="logo">
+
+        <h1> Republic of the Philippines <br>
+            Department of Science and Technology <br>
+            Philippine Science High School - Caraga Region Campus
+        </h1>
+    </nav>
+</header>
+
+<body>
+    <div class="footer">
+        <p>FOLLOW us on:<br>
+        crc.pshs.edu.ph</p>
+    </div>
+
+
+    <div class="a">
+        <h1> About</h1>
+    </div>
+
+    <div class = "label">
+        <h1>
+            ABOUT
+        </h1>
+    </div>
+
+    <div class="content">
+        <h1>
+           <ul>
+            <li><a id="mav" href="mandv.html">Mission and Vision</a></li>
+            <li><a id="mav" href="ao.html">Agency Officials</a></li>
+            <li><a id="mav" href="om.html">Our Mandate</a></li>
+            <li><a id="mav" href="dm.html">Director's Message</a></li>
+            <br>
+            </ul>
+        </h1>
+    </div>
+    <div class="container">
+        <div class="box">
+            <div class="imgBx">
+                <img src="avr.jfif">
+            </div>
+            <div class="contentp">
+                <div>
+                    <h2>PSHS-CRC</h2>
+                    <p>Avr</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="gymi.jpg">
+            </div>
+            <div class="contentp">
+                <div>
+                    <h2>PSHS-CRC</h2>
+                    <p>Gymnasium</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="gs.jpg">
+            </div>
+            <div class="contentp">
+                <div>
+                    <h2>PSHS-CRC</h2>
+                    <p>Grand Stand</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="acad1.jpg">
+            </div>
+            <div class="contentp">
+                <div>
+                    <h2>PSHS-CRC</h2>
+                    <p>Academic Building 1</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="acad 2.jpg">
+            </div>
+            <div class="contentp">
+                <div>
+                    <h2>PSHS-CRC</h2>
+                    <p>Academic Building 2</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="sp.jpg">
+            </div>
+            <div class="contentp">
+                <div>
+                    <h2>PSHS-CRC</h2>
+                    <p>Stem Park</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="comlab.jpg">
+            </div>
+            <div class="contentp">
+                <div>
+                    <h2>PSHS-CRC</h2>
+                    <p>Computer Laboratory</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="lib.jpg">
+            </div>
+            <div class="contentp">
+                <div>
+                    <h2>PSHS-CRC</h2>
+                    <p>library</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="qp.jpg" style="width: 500px; height: 600px; margin-left: 200px; margin-top: -850px; z-index: 1; ">
+</body>
+
+<style>
+    body {
+        background-image: url("pisayeh.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: 'Montserrat';
+        position: sticky;
+        top: 0;
+        text-decoration: none;
+        transition: width 2s;
+    }
+
+    .container{
+        position: relative;
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-right: -100px;
+        margin-top: 150px;
+    
+    }
+
+    .container .box{
+        position:relative;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .container .box:hover{
+        z-index: 1;
+        transform: scale(1.25);
+        box-shadow: 0 25px 40px rgba(0,0,0,.5);
+    }
+
+    .container .box .imgBx{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:100%;
+        height: 100%;
+    }
+
+    .container .box .imgBx:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:100%;
+        height: 100%;
+        z-index: 1;
+        background: linear-gradient(180deg, rgb(66, 117, 236), rgb(0, 0, 0) );
+        mix-blend-mode: multiply;
+        opacity: 0;
+        transition: 0.5s;
+    }
+
+    .container .box:hover .imgBx:before{
+        opacity:1;
+    }
+    .container .box .imgBx img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .container .box .contentp{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width:100%;
+        height: 100%;
+        z-index: 1;
+        display: flex;
+        padding: 20px;
+        align-items: flex-end;
+
+    }
+
+    .container .box .contentp h2{
+        color: #fff;
+        transition: 0.5s;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        font-size: 20px;
+        transform: translateY(200px);
+    }
+
+    .container .box:hover .contentp h2{
+        transform: translateY(0);
+        transition-delay: 0.3s;
+    }
+
+    .container .box .contentp p{
+        color: #fff;
+        transform: translateY(200px);
+        transition: 0.5s;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .container .box:hover .contentp p{
+        transform: translateY(0);
+        transition-delay: 0.3s;
+    }
+    .a h1{
+        font-size: 100px;
+		max-width: 600px;
+		margin-left: 70px;
+		color: white;
+		font-family:'Rubik Mono One';
+        margin-top: 150px;
+    }
+
+    .label h1{
+		margin:auto;
+        color: white;
+        border: 1px solid black;
+		width:5%;
+		text-align:center;
+		font-family:'Montserrat';
+        font-size: large;
+        padding: 1%;
+        margin-left: -250px;
+        margin-top: 450px;
+        background: rgb(12, 12, 83);
+    }
+
+
+    .content h1 ul{
+		margin:auto;
+        color: white;
+        border: none;
+		width: 1000%;
+        height: 250px;
+		font-family:'Montserrat';
+        font-size: 100%;
+        padding: 50PX;
+        margin-left: -250px;
+        margin-top: 565px;
+        background: rgb(125, 125, 132);
+        text-align: left;
+        list-style-type: none;
+        top: 0px;
+        z-index: 1;
+        
+    }
+
+    #mav:hover{
+        color:rgb(155, 178, 253);
+    }
+
+    #acads {
+         position: relative;
+    }
+
+    #acads:after {
+        content: '';
+        height: 6.3px;
+        width: 0;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        background-color: white;
+        transition: 0.5s;
+    }
+
+    #acads:hover:after {
+        width: 100%;
+    }
+
+    #admis {
+        position: relative;
+    }
+
+    #admis:after {
+        content: '';
+        height: 6.3px;
+        width: 0;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        background-color: white;
+        transition: 0.5s;
+    }
+
+    #admis:hover:after {
+        width: 100%;
+    }
+
+    #conta {
+        position: relative;
+    }
+
+    #conta:after {
+        content: '';
+        height: 6.3px;
+        width: 0;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        background-color: white;
+        transition: 0.5s;
+    }
+
+    #conta:hover:after {
+        width: 100%;
+    }
+
+    #ab {
+        position: relative;
+    }
+
+    #ab:after {
+        content: '';
+        height: 6.3px;
+        width: 0;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        background-color: white;
+        transition: 0.5s;
+    }
+
+    #ab:hover:after {
+        width: 97%;
+    }
+
+    #yes {
+        position: relative;
+    }
+
+    #yes:after {
+        content: '';
+        height: 6.3px;
+        width: 0;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        background-color: white;
+        transition: 0.5s;
+    }
+
+    #yes:hover:after {
+        width: 98%;
+    }
+
+    li #mav{
+        display: inline;
+        float: left;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    
+    li #acads{
+        display: inline;
+        float: right;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    li #admis{
+        display: inline;
+        float: right;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    li #conta{
+        display: inline;
+        float: right;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    li #ab{
+        display: inline;
+        float: right;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    li #yes{
+        display: inline;
+        float: right;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    li a {
+        margin-right: 30px;
+        padding-top: 20px;
+        color: white;
+        border: 1px;
+        float: right;
+        text-decoration: none;
+    }
+
+    .logo {
+        border: 1px;
+        padding-right: 10px;
+        height: 60px;
+        float: left;
+        margin-top: -40px;
+        margin-left: 23px;
+    }
+
+    h1 {
+        float: left;
+        margin-top: -38px;
+        border: 1px;
+        font-family: 'Montserrat';
+        font-size: 15px;
+        color: white;
+        font-weight: lighter;
+    }
+
+    nav {
+        overflow: hidden;
+        width: 100%;
+        position: fixed;
+        margin-left: -8px;
+        top: 0px;
+        height: 99px;
+        opacity: 0.9;
+        background-color: rgb(12, 12, 83);
+        z-index:2;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(12, 12, 83);
+        color: white;
+        fill-opacity: inherit;
+        font-family: 'Montserrat';
+        opacity:0.9;
+        z-index: 2;
+        margin:auto;
+    }
+    .footer p{
+        text-align: left;
+        font-family: 'Montserrat';
+        margin-left: 5px;
+        font-size:small;
+        padding-left:18px;
+    }
+
+   
+</style>
+</html>

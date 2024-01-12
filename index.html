@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Promotional PSHS Website">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Group 10">
+    <meta name="viewport" content="">
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+
+<header>
+    <nav>
+        <ul>
+            <li><a id="acads" href="acads.html">ACADEMICS</a></li>
+            <li><a id="admis" href="admission.html">ADMISSION</a></li>
+            <li><a id="conta" href="contacts.html">CONTACTS</a></li>
+            <li><a id="ab" href="about.html">ABOUT</a></li>
+            <li><a id="yes" href="index.html">HOME</a></li>
+        </ul>
+
+
+        <img src="logo.png" alt="" class="logo">
+
+        <h1> Republic of the Philippines <br>
+            Department of Science and Technology <br>
+            Philippine Science High School - Caraga Region Campus
+        </h1>
+    </nav>
+</header>
+
+<body>
+    <div class="footer">
+        <p>FOLLOW us on:<br>
+            crc.pshs.edu.ph</p>
+
+        <a id="source" href="source.html">sources</a>
+    </div>
+
+    <div class="text">
+        <p>INNOVATE. EDUCATE. INSPIRE.</p>
+    </div>
+
+    <div class="button">
+        <a href="about.html">ABOUT</a>
+    </div>
+
+</body>
+
+<style>
+    body {
+        background-image: url("crc.png");
+        background-repeat:none;
+        background-size: cover;
+        opacity: 1;
+        position:fixed;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: sticky;
+        top: 0;
+        text-decoration: none;
+        font-family: 'Montserrat';
+    }
+
+    #acads {
+        position: relative;
+    }
+
+    #acads:after {
+        content: '';
+        height: 6.3px;
+        width: 0;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        background-color: white;
+        transition: 0.5s;
+    }
+
+    #acads:hover:after {
+        width: 100%;
+    }
+
+    #admis {
+        position: relative;
+    }
+
+    #admis:after {
+        content: '';
+        height: 6.3px;
+        width: 0;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        background-color: white;
+        transition: 0.5s;
+    }
+
+    #admis:hover:after {
+        width: 100%;
+    }
+
+    #conta {
+        position: relative;
+    }
+
+    #conta:after {
+        content: '';
+        height: 6.3px;
+        width: 0;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        background-color: white;
+        transition: 0.5s;
+    }
+
+    #conta:hover:after {
+        width: 100%;
+    }
+
+    #ab {
+        position: relative;
+    }
+
+    #ab:after {
+        content: '';
+        height: 6.3px;
+        width: 0;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        background-color: white;
+        transition: 0.5s;
+    }
+
+    #ab:hover:after {
+        width: 97%;
+    }
+
+    #yes {
+        position: relative;
+    }
+
+    #yes:after {
+        content: '';
+        height: 6.3px;
+        width: 0;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        background-color: white;
+        transition: 0.5s;
+    }
+
+    #yes:hover:after {
+        width: 98%;
+    }
+
+    li {
+        display: inline;
+        float: right;
+        margin-top: 20px;
+        font-size: 15px;
+        font-family: 'Montserrat';
+    }
+
+    li a {
+        margin-right: 30px;
+        padding-top: 20px;
+        color: white;
+        border: 1px;
+        float: right;
+        text-decoration: none;
+    }
+
+    .logo {
+        border: 1px;
+        padding-right: 10px;
+        height: 60px;
+        float: left;
+        margin-top: -40px;
+        margin-left: 23px;
+    }
+
+    h1 {
+        float: left;
+        margin-top: -38px;
+        border: 1px;
+        font-size: 15px;
+        color: white;
+        font-weight: lighter;
+        font-family: 'Montserrat';
+    }
+
+    .text{
+        color:white;
+        font-weight:bolder;
+        font-size: 65px;
+        font-family:'Montserrat';
+        text-align: center;
+        padding-left:80px;
+        margin-top: 220px;
+    }
+
+    .button {
+        color: white;
+        font-family: 'Montserrat';
+        text-align: center;
+        margin-top: 13%;
+        font-size: large;
+        transition: all ease-in-out 0.07s;
+    }
+
+    .button:hover {
+        font-size: larger;
+    }
+
+    div a {
+        text-decoration: none;
+        color: white;
+        border: 1.5px solid white;
+        border-radius: 8px;
+        padding: 7px 20px 7px 20px;
+        text-align: center;
+        margin-left:10.5%;
+    }
+
+    div a:hover {
+        background-color: white;
+        color: black;
+        border-color: black;
+        }
+
+
+    nav {
+        overflow: hidden;
+        width: 100%;
+        position: fixed;
+        margin-left: -8px;
+        top: 0px;
+        height: 99px;
+        opacity: 0.9;
+        background-color: rgb(10, 10, 69);
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(10, 10, 69);
+        color: white;
+        float: left;
+        fill-opacity: inherit;
+        opacity: 0.8;
+        font-family: 'Montserrat';
+        font-size: small;
+    }
+
+    #source{
+        position:fixed;
+        right:0;
+        bottom:0;
+        color:white;
+        float:right;
+        font-family: 'Montserrat';
+        font-size:small;
+    }
+
+    #source:hover{
+        color:black;
+    }
+    div p {
+        margin-left: 20px;
+    }
+</style>
+
+</html>
